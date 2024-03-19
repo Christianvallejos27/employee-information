@@ -75,3 +75,60 @@ function viewAllDepartments(){
     })
 }
 startapp ()
+
+
+function viewAllEmployees(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
+
+function viewAllRoles(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
+
+function addADepartment(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
+
+function addARole(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
+
+function addAEmployee(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
+
+function updateEmployee(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
+
+function quit(){
+  console.log("view department logic")
+  db.query("SELECT id AS department_id, dept_name AS department_name FROM department_list; ", function (err, results) {
+      err ? console.log(err) : console.table(results), startapp()
+  })
+}
+startapp ()
